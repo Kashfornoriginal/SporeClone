@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8467b7bced0615c45a8a5ba30314db50, type: 3}
   m_Name: Meat
   m_EditorClassIdentifier: 
-  _id: 
-  _name: 
+  _id: default_meat
+  _name: Meat
+  _description: Red bloody raw meat
   _type: 0
-  _icon: {fileID: 0}
-  _prefab: {fileID: 0}
-  _recoveryValue: 0
+  _icon: {fileID: 21300000, guid: 9f1668055faeff04f96ea9a4f115aa85, type: 3}
+  _prefab: {fileID: 1087354907399051185, guid: 6ed56685a7c35854eb8efee0cc5ecffc, type: 3}
+  _recoveryValue: 10

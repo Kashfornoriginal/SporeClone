@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8467b7bced0615c45a8a5ba30314db50, type: 3}
   m_Name: Grass
   m_EditorClassIdentifier: 
-  _id: 
-  _name: 
+  _id: default_grass
+  _name: Grass
+  _description: Beatiful green grass
   _type: 0
-  _icon: {fileID: 0}
-  _prefab: {fileID: 0}
-  _recoveryValue: 0
+  _icon: {fileID: 21300000, guid: 2a9558ba0db05824192e4bc62b0245b3, type: 3}
+  _prefab: {fileID: 2990278621601260039, guid: a65e773de4eaf4b4a8f50018b740eb9e, type: 3}
+  _recoveryValue: 10

@@ -10,7 +10,7 @@ public class ItemsPool : MonoBehaviour
 
     [SerializeField] private int _amountOfObjects;
 
-    private List<GameObject> _objectsPool = new List<GameObject>();
+    protected List<GameObject> _objectsPool = new List<GameObject>();
 
     protected void Initialize(ItemsData[] objectPrefab)
     {

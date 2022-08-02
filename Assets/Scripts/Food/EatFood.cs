@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class EatFood : MonoBehaviour
 {
-    private void OnCollisionEnter(Collision obj)
+    private void OnTriggerEnter(Collider obj)
     {
         if (obj.gameObject.GetComponent<Player>() == true)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }

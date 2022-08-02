@@ -6,16 +6,27 @@ public class ItemsSpawner : ItemsPool
 
     [SerializeField] private RandomPositionMover _randomPositionMover;
 
+    [SerializeField] private float _timeBetweenFoodSpawn;
+
+    private float _currentTimeBetweenFood;
+
     private void Start()
     {
         Initialize(_foodPrefabs);
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        if(TryGetObjectFromPool(out GameObject obj))
+        _currentTimeBetweenFood += Time.fixedDeltaTime;
+
+        if (_currentTimeBetweenFood >= _timeBetweenFoodSpawn)
         {
-            SetObject(obj);
+            if(TryGetObjectFromPool(out GameObject obj))
+            {
+                SetObject(obj);
+            }
+
+            _currentTimeBetweenFood = 0;
         }
     }
 
