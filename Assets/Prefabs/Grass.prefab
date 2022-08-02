@@ -12,8 +12,7 @@ GameObject:
   - component: {fileID: 5341057641764290622}
   - component: {fileID: 4765850963195924124}
   - component: {fileID: 7128874080164252583}
-  - component: {fileID: 380573211478593413}
-  - component: {fileID: -3046513363351003066}
+  - component: {fileID: 1514334581260130423}
   m_Layer: 0
   m_Name: Grass
   m_TagString: Untagged
@@ -98,7 +97,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &380573211478593413
+--- !u!114 &1514334581260130423
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,19 +106,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 2990278621601260039}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f354d7a4d19e4c34e9fc41eac4def30a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ItemType: 0
---- !u!114 &-3046513363351003066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2990278621601260039}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0be1c91f21deb64fba9ea2b0cf1572c, type: 3}
+  m_Script: {fileID: 11500000, guid: ce3f89a8f7b09194b9347a6751629260, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

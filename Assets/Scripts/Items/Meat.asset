@@ -9,9 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5930598f7f45700499f4c5465d5427d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 8467b7bced0615c45a8a5ba30314db50, type: 3}
   m_Name: Meat
   m_EditorClassIdentifier: 
   _id: 
   _name: 
+  _type: 0
   _icon: {fileID: 0}
+  _prefab: {fileID: 0}
+  _recoveryValue: 0
